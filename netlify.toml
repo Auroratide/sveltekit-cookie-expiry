@@ -1,0 +1,9 @@
+[Settings]
+  ID = "sveltekit-cookie-expiry"
+
+[build]
+  command = "npm run build"
+  publish = "build/public"
+
+[functions]
+  directory = "build/functions"
